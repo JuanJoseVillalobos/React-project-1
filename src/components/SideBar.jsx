@@ -1,9 +1,10 @@
 import React from "react"
-
+import Logo from "../assets/images/logo.png"
 
 function SideBar() {
   return (
     <>
+      
       <ul
         className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion"
         id="accordionSidebar"
@@ -14,8 +15,8 @@ function SideBar() {
         >
           <div className="sidebar-brand-icon">
             <img
-              className="w-100"
-              src= "../assets/images/logo-DH.png"
+              className="w-50"
+              src= {Logo}
               alt="Digital House"
             />
           </div>
